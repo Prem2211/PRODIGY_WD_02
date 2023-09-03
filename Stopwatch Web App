@@ -1,1 +1,27 @@
-
+#stopwatch {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .display {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .controls {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .laps {
+    margin-top: 20px;
+  }
+  #lap-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  #lap-list li {
+    display: block;
+    margin-bottom: 10px;
+  }
